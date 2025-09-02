@@ -8,11 +8,11 @@ O DeepRacer também oferece uma liga de corrida onde os usuários podem competir
 
 **Carro fisico**
 
-![alt text](image-3.png)
+![Carro Fisico](imagens/carro-fisico.png)
 
 **Simulador**
 
-![alt text](image-4.png)
+![Simulador](imagens/simulador.png)
 
 ### Tipos de Corrida
 
@@ -60,7 +60,7 @@ Aprendizagem por reforço (RL) é um tipo de aprendizado de máquina onde um age
 
 **Time Step (t)**: Pontos discretos no tempo em que o agente interage com o ambiente.
 
-![alt text](image-5.png)
+![MDP](imagens/mdp.png)
 
 Como ler o MDP:
 
@@ -72,7 +72,7 @@ No aprendizado por reforço, o conjunto de todas as ações válidas, ou escolha
 
 Um **espaço de ação discreto** representa todas as possíveis ações de um agente para cada estado em um conjunto finito. Para o AWS DeepRacer, isso significa que, para cada situação ambiental incrementalmente diferente, a rede neural do agente seleciona uma velocidade e uma direção para o carro com base nas informações de sua(s) câmera(s) e no sensor LiDAR (opcional). A escolha é limitada a um agrupamento de combinações predefinidas de ângulo de direção e valores de aceleração.
 
-![alt text](image-6.png)
+![Espaço de ação discreto](imagens/espaco-de-acao-discreto.png)
 
 Um **espaço de ação contínuo** permite que o agente selecione uma ação dentre uma gama de valores para cada estado. Assim como em um espaço de ação discreto, isso significa que, para cada situação ambiental incrementalmente diferente, a rede neural do agente seleciona uma velocidade e direção para o carro com base na entrada de sua(s) câmera(s) e (opcional) sensor LiDAR. No entanto, em um espaço de ação contínuo, você pode definir a gama de opções dentre as quais o agente escolhe sua ação.
 
@@ -160,29 +160,8 @@ Existem diversos parametros que podem ser usados para montar uma função de rec
 
 - waypoints: Uma lista de coordenadas que definem o caminho da pista.
 
-- etc
+- etc...
 
 Você pode ler mais sobre cada um dos parametros no site da AWS
 
 Link para a pagina oficial da aws explicando os parametros com exemplos de funções de recompensas ([Link](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-reward-function-input.html))
-
-
-## Treinamento e Avaliação de Modelos
-
-<!-- adicionar imagens mostrando o passo a passo para a criação, treinamento e avaliação de um modelo  -->
-
-# Aprofundamento no DeepRacer
-
-## Otimização da função de recompensa
-
-## Otimização do Espaço de Ação
-
-## Arquitetura do Serviço AWS DeepRacer
-
-## Importe e exporte modelos no DeepRacer console da AWS
-
-## Analise de logs
-
-### Para contas padrões
-
-### Para contas de estudantes
